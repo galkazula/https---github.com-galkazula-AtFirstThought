@@ -8,7 +8,7 @@
   margin:0;
   padding:0;
   direction:rtl;
-  position: relative;
+  /* position: relative; */
   /* margin-top: 150px; */
   display: flex;
   align-items: center;
@@ -20,7 +20,7 @@
   padding:0;
   direction:rtl;
   position: relative;
-  margin-top: 300px;
+  margin-top: 20vh;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -42,8 +42,7 @@
 .Lior-img {
   margin-right: 150px;
   border-radius: 116px;
-  width: 437px;
-  height: 621px;
+  height: 90vh;
   object-fit: cover;
   background: #f0f0f0;
   box-shadow:  0 0 0 #cccccc,
@@ -64,47 +63,49 @@
   color: #161C2D;
 }
 .Lior-littleh1{
+  margin-top: 3vh;
   font-weight: bold;
   font-size: 24px;
   color: #161C2D;
 
 }
 .Lior-para1{
-  width: 40vw;
+  /* width: 40vw; */
   font-weight: normal;
   font-size: 24px;
   color: #161C2D;
 }
 .Lior-littleh2{
+  margin-top: 3vh;
+
   font-weight: normal;
   font-size: 36px;
   color: #161C2D;
 }
 .Lior-para2{
-  width: 40vw;
+  /* width: 40vw; */
 
   font-weight: normal;
   font-size: 24px;
   color: #161C2D;
 }
 
-@media all and (max-width: 1220px) {
+@media all and (max-width: 820px) {
   .Lior-white-rect{
     display: flex;
     flex-direction: column;
     width: 69vw;
-    height: 120vw;
+    height: fit-content;
+    padding: 5vh;
     background-color: #f9f9f9e3;
     box-shadow: 5px 5px 10px rgba(0, 4, 4, 0.25);
+    align-items: center;
     
   }
 
   .Lior-img{
-    margin-left: 13vw;
-    margin-top: 10vw;
-    width: 621px;
-    height: 437px;
-    object-fit:fit;
+    width: 80%;
+    height: 40vh;
     object-position: 0 -60px;
     box-shadow: 5px 5px 10px rgba(0, 4, 4, 0.25);
 
