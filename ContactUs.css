@@ -1,11 +1,22 @@
+.contact-complete{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
 
+}
+.creative-mind-reccomendation{
+    flex: 0.12;
+    width: 2vw;
+}
 .contact-h1 {
+    padding-top: 200px;
     text-align: center;
     color: #a8a8a8;
     text-shadow: 1px 1px 0 white;
 }
 
 form {
+    flex: 1;
     max-width: 800px;
     text-align: center;
     margin: 20px auto;
