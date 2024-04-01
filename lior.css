@@ -41,7 +41,7 @@
 }
 .Lior-img {
   margin-right: 150px;
-  border-radius: 116px;
+  border-radius: 70px;
   height: 90vh;
   object-fit: cover;
   background: #f0f0f0;
@@ -104,10 +104,12 @@
   }
 
   .Lior-img{
-    width: 80%;
+    width: 90%;
     height: 40vh;
     object-position: 0 -60px;
     box-shadow: 5px 5px 10px rgba(0, 4, 4, 0.25);
+    margin-right: 0;
+
 
   }
   .Lior-para2{
