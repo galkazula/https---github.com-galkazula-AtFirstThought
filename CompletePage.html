@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="ContactUs.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="CompletePage.css">
+    <link rel="stylesheet" href="/template/hamburger-temp.css">
+
     <script src="script.js" defer></script>
 
 
@@ -21,16 +23,30 @@
   <body style=" background-color: #F4F7FA;">
     <section class="et-hero-tabs" >
       <div class="et-hero-tabs-container">
-        <a class="et-hero-hamburger"> <img class="hamburger-menu" src="src/hamburger-menu.svg"><a>
         <a class="et-hero-tab" href="#tab-contact">צרו קשר</a>
         <a class="et-hero-tab" href="#tab-recomendations">מה מספרים עלינו</a>
         <a class="et-hero-tab" href="#tab-creative">מהי חשיבה יצירתית?</a>
         <a class="et-hero-tab" href="#tab-WhatWeDo">מה אנחנו עושים?</a>
         <a class="et-hero-tab" href="#tab-introduction">במחשבה תחילה</a>
+
         <span class="et-hero-tab-slider"></span>
       </div>
     </section>
 
+    <div id="menuToggle">
+      <input type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+      <ul id="menu">
+        <a href="#tab-introduction"><li>במחשבה תחילה</li></a>
+        <a href="#tab-WhatWeDo"><li>מה אנחנו עושים?</li></a>
+        <a href="#tab-creative"><li>מהי חשיבה יצירתית?</li></a>
+        <a href="#tab-recomendations"><li>מה מספרים עלינו?</li></a>
+        <a href="#tab-contact"><li>צרו קשר</li></a>
+        <!-- <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a> -->
+      </ul>
+    </div>
 
     <main class="et-main">
 
