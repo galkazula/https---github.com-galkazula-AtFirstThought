@@ -1,0 +1,295 @@
+.body{
+  /* width: fit-content; */
+}
+.creative-mindset-h1
+{
+  /* margin-top: 250px; */
+  display: block;
+  direction: rtl;
+  font-family: "Assistant", sans-serif;
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #161C2D;
+  text-align: center;
+}
+.RTL-creative{
+  direction: rtl;
+}
+.creative-page{
+position: relative;
+}
+.green-creative-background{
+  display: none;
+  position: absolute;
+}
+.blue-circle-backround{
+  display: none;
+  position: absolute;
+margin-left: 48%;
+}
+.arrow-vector{
+  position: absolute;
+  margin-top: 300px;
+right: -300px;}
+
+
+.first-part-creativty{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+
+.flex-div{
+  display: flex;
+  justify-content: right;
+}
+
+.first-coulmn{
+  flex: 1.1;
+  margin-right: 50px;
+  /* height: 1000px; */
+  
+}
+.secend-coulmn{
+  scale: 0.8;
+  display: flex;
+  justify-content: center;
+  /* background-color: #F64B4B; */
+  /* flex: 1; */
+  /* height: 1000px; */
+}
+
+.img-giraffe{
+  width: 30vw;
+}
+
+.first-row-creativty{
+  display: flex;
+}
+
+.line-creativity-para1{
+  position: absolute;
+  margin-left: 45%;
+  
+}
+.creative-mindset-para1{
+  direction: rtl;
+  padding-right: 10px;
+  font-family: "Assistant", sans-serif;
+  font-weight: normal;
+  font-size: 3.2vw;
+  color: #161C2D;
+  text-align: right;
+  border-right: 1px solid black;
+  border-right-width: 1px;
+}
+
+
+.img-boesh{
+  /* margin-left: -13vw; */
+  height:15vh;
+}
+
+
+.img-dove{
+  /* margin-left: 20%; */
+  height: 15vh;
+}
+.arrow-vector{
+  margin-right: 20%;
+  flex: 0.3;
+}
+
+.coulmn1-part2{
+  display: flex;
+  flex-direction: column-reverse;
+  /* margin-top: -500px; */
+}
+.paragraph2{
+
+  flex: 1;
+
+}
+.What-Creativity-h1{
+  display: flex;
+  align-items:baseline;
+  direction: rtl;
+  font-family: "Assistant", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: right;
+  color: #F64B4B;
+
+  margin-right: 30px;
+}
+
+.paragraph-what-creativity{
+  margin-top: 30px;
+  height: fit-content;
+  display: block;
+  direction: rtl;
+  font-family: "Assistant", sans-serif;
+  font-weight: normal;
+  font-size: 3.2vw;
+  color: #000000;
+  text-align: right;
+  margin-right: 30px;
+  display: none;
+
+}
+.paragraph-what-creativity-bold{
+  margin-top: 30px;
+  height: fit-content;
+  display: block;
+  direction: rtl;
+  font-family: "Assistant", sans-serif;
+  font-weight: bold;
+  font-size: 3.2vw;
+  color: #000000;
+  text-align: center;
+  margin-right: 30px;
+}
+.dove-flex-header{
+display: flex;
+justify-content: right;
+}
+.coulmn2-part2{
+  flex: 1.1;
+  height: 850px;
+}
+
+.img-sun-matka{
+  display: none;
+  margin-left: 400px;
+  margin-right: 100px;
+
+  padding-left: 20vw;
+  width: 20vw;
+}
+
+
+
+/* תחילת עיצוב פסוק */
+.full-quote{
+  display: flex;
+  justify-content: center;
+  scale: 0.55;
+}
+
+.white-rect-quotes{
+  display: flex;
+  width: 600px;
+  height: 200px;
+  background-color: white;
+  position: relative;  
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.gray-rect-quotes{
+  width: 536px;
+  height: 136px;
+  background-color:#ECF0F4 ;
+  
+}
+.quote-paragraph{
+  direction: rtl;
+  font-family: "Assistant", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #191825;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 20px;
+  
+}
+.quote-person{
+  direction: rtl;
+  font-family: "Assistant", sans-serif;
+  font-weight:lighter;
+  font-size: 27px;
+  color: #191825;
+  width: 150px;
+}
+.upper-left-quotes,.lower-right-quotes {
+  position: absolute;
+  width: 72px;
+  height: 61px;
+}
+.upper-left-quotes{
+top: 15px;
+left: 6px;
+}
+.lower-right-quotes{
+    right: 6px;
+    bottom: 15px;
+    rotate: 180deg;
+}
+
+/* סוף פסוק */
+
+@media all and (max-width: 391px) {
+  
+    .img-sun-matka {
+        display: none;
+    }
+    .img-giraffe{
+      display: none;
+    }
+  
+}
+
+
+
+/*BOOTSTRAP*/
+
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
