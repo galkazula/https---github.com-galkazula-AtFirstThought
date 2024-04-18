@@ -44,7 +44,7 @@
 .recommendations-h1{
   color: #F85E9F;
   margin:0 auto;
-  font-size: 23;
+  font-size: 5vh;
   font-weight: bold;
   font-family: "Assistant", sans-serif;
 
@@ -89,7 +89,7 @@ justify-content: center;
   margin-top: 32px;
   margin-bottom: 0;
   color: #191825;
-  font-size: 23px;
+  font-size: 2.2vh;
   line-height: 160%;
   align-self: center;
   font-weight: lighter;
