@@ -1,8 +1,16 @@
 .contact-complete{
 display: flex;
-flex-direction: row;
+flex-direction: row-reverse;
 justify-content: space-around;
 
+}
+.phone-number-text,.email-text{
+    /* font-family: "Assistant", sans-serif; */
+    font-weight:normal;
+    font-size: 3vh;
+    color: #161C2D;
+    margin: 0;
+    margin-bottom: 1vh;
 }
 .creative-mind-reccomendation{
     flex: 0.12;
@@ -19,12 +27,20 @@ justify-content: space-around;
     color: #161C2D;
     text-align: center;
 }
-
+.fa{
+    justify-items: center;
+    align-self: center;
+}
 form {
     flex: 1;
     max-width: 800px;
     text-align: center;
     margin-top: 20px;
+}
+.contact-h2{
+    font-size: 4vh;
+    letter-spacing: 0.3rem;
+    opacity: 0.6;
 }
 
 
